@@ -3,6 +3,6 @@
     "version": "1.0.0",
     "scripts": {
       "test": "echo \"Running tests...\" && exit 0",
-      "build": "echo \"Building app...\" && mkdir -p dist"
+      "build": "mkdir -p dist && printf '%s\n' '<!doctype html><html><head><meta charset=\"utf-8\"><title>Build</title></head><body><h1>Build artifact</h1></body></html>' > dist/index.html"
     }
   }
